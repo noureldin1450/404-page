@@ -1,0 +1,148 @@
+/**/
+    /**website fonts**/
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+/**/
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: .7s;
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(/imges/back-ground-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container img{
+    padding-top: 8em;
+    width: 14%;
+}
+.container h1,h2{
+    color: #f86d70;
+}
+h1{
+    padding: .6em 0px .3em 0px;
+    font-weight: 700;
+    font-size: 3em;
+}
+h2{
+    font-weight: 200;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.btn a{
+    border: 2px solid #f86d70;
+    color: #f86d70;
+    padding: .5em 3.5em;
+    border-radius: 6px;
+    font-size: .6em;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0px .3em;
+}
+.btn a:hover{
+    color: #fff;
+    background-color: #f86d70;
+}
+
+/** responsive **/
+
+@media only screen and (max-width: 600px) {
+    header{
+        background-size: contain;
+    }
+.container{
+    width: 100%;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: .8em;
+    padding: 0px 0px 10px 0px;
+}
+.btn a{
+     padding: .2em 3em;
+     font-size: .6em
+}
+}
+@media only screen and (max-width: 450px) {
+h1{
+    font-size: 1.4em;
+    padding: 0px;
+}
+h2{
+    font-size: .6em;
+    padding: 0px;
+}
+.btn a{
+     padding: .8em 2em;
+     font-size: .4em;
+    border: 1px solid;
+}
+.container img{
+    padding-top: 12em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
